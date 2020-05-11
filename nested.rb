@@ -81,7 +81,8 @@ def adding_matz
         :languages => ["C"]
       }
     }
-  programmer_hash.store
+  programmer_hash[:grace_hopper][]
+  programmer_hash
 
 end
 
