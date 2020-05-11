@@ -81,7 +81,7 @@ def adding_matz
         :languages => ["C"]
       }
     }
-  programmer_hash[:grace_hopper][]
+  programmer_hash[:grace_hopper].store(:yukihiro_matsumoto, )
   programmer_hash
 
 end
